@@ -1,4 +1,18 @@
-%% UTS No 1
+% =====================================================
+% UTS Matematika Sains Data — Semester Genap 2025/2026
+% Soal 1 — Eksplorasi Awal dan Profil Data Transaksi 
+% ---------------------------------------------------
+% Nama : Khayla Oksyasuni
+% NIM : 2510514018
+% Parameter: N=18, a=1, b=8, K=10, theta0=70, alpha=0.009
+% Tanggal: <2026-04-21>
+% =====================================================
+clc; clear; close all;
+
+% Parameter personalisasi
+N = 18; a = 1; b = 8; K = 10;
+theta0 = 70; % derajat
+alpha_lr = 0.009;
 
 % a,b)
 D = [28 41 49 62 75 83 89];
