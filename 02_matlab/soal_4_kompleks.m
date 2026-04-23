@@ -13,8 +13,6 @@ clc; clear; close all;
 N = 18; a = 1; b = 8; K = 10;
 theta0 = 70; % derajat
 alpha_lr = 0.009;
-z1 = 3 + 9i;
-z2 = 9 - 3i;
 
 % b
 z1 = 3 + 9i;
