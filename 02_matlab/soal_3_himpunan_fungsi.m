@@ -5,7 +5,7 @@
 % Nama : Khayla Oksyasuni
 % NIM : 2510514018
 % Parameter: N=18, a=1, b=8, K=10, theta0=70, alpha=0.009
-% Tanggal: <2026-04-21>
+% Tanggal: <2026-04-23>
 % =====================================================
 clc; clear; close all;
 
