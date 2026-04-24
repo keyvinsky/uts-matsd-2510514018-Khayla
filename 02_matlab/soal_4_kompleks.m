@@ -5,7 +5,7 @@
 % Nama : Khayla Oksyasuni
 % NIM : 2510514018
 % Parameter: N=18, a=1, b=8, K=10, theta0=70, alpha=0.009
-% Tanggal: <2026-04-23>
+% Tanggal: <2026-04-24>
 % =====================================================
 clc; clear; close all;
 
@@ -29,11 +29,16 @@ theta0 = deg2rad(70);
 k = 0:2;
 z = 2*exp(1i*(theta0 + 2*pi*k)/3);
 
+% plot titik
 plot(real(z), imag(z), 'o')
 hold on
 
+% hubungkan titik (segitiga)
+plot([real(z) real(z(1))], [imag(z) imag(z(1))])
+
+% gambar lingkaran radius 2
 t = linspace(0,2*pi,100);
-plot(2*cos(t), 2*sin(t)) % lingkaran
+plot(2*cos(t), 2*sin(t))
 
 axis equal
 grid on
